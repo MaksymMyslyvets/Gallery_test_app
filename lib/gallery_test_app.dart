@@ -9,7 +9,10 @@ class GalleryApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(Strings.appTitle),
+        title: Text(
+          Strings.appTitle,
+          style: TextStyle(fontSize: 24.0),
+        ),
       ),
       body: GalleryPage(),
     );
