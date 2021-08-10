@@ -12,7 +12,7 @@ class ImagePage extends StatelessWidget {
       decoration: BoxDecoration(
         image: DecorationImage(
           image: NetworkImage(userImage.fullImageUrl),
-          fit: BoxFit.contain,
+          fit: BoxFit.cover,
         ),
       ),
     );
